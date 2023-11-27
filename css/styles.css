@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1f2630;    
+    scrollbar-width: 0px;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+/* top rated part start here  */
+
+.top_rated{
+    margin: 10px 0px;
+}
+.title{
+
+text-align: center;
+
+margin: 0;
+
+/* box-shadow: 2px 3px 5px 2px #b0a9a94a; */
+
+margin: 20px 0px;
+
+background: #1f26308c;
+
+border-bottom: 1px solid #8d888845;
+}
+.title h3{
+    
+color: #fff;
+    
+padding: 10px 0px;
+}
+/* top rated part end here  */
+
+/* table part start here  */
+.crypto_table{
+
+height: 600px;
+
+overflow: auto;
+}
+
+.crypto_table table thead tr th{
+
+}
+.crypto_table table thead tr{
+
+}
+.crypto_table table thead{
+
+}
+.crypto_table table{
+
+height: 100px;
+
+overflow: auto;
+}
+.crypto_table table tbody  tr td  img{
+
+width: 28px;
+
+margin-right: 5px;
+}
+.crypto_table table tbody  tr td h5{
+
+padding-bottom: 16px;
+}
+.crypto_table table tbody  tr td p{
+
+font-size: 12px;
+}
+.crypto_table table tbody  tr td{
+    padding: 25px 0px;
+}
+.crypto_table table tbody  tr{
+
+}
+.crypto_table table tbody{
+
+}
+/* table part end here  */
+
+.mobile_view{
+    display: none;
+}
+.crypto_table{
+    scrollbar-width: 0px;
+    margin-bottom: 20px;
+}
+.crypto_table::-webkit-scrollbar{
+    display: none;
+}
+table tbody{
+    height: 100px !important;
+    overflow: auto;
+}
+
+/* top gainer part start here  */
+.top_gainer{
+
+}
+.top_gainer table tbody img{
+
+height: 60px;
+
+width: 60px;
+
+border-radius: 50%;
+
+margin-right: 15px;
+
+object-fit: cover;
+}
+.top_gainer table tbody h2{
+
+font-size: 18px;
+
+margin: 0;
+
+margin-top: 10px;
+}
+.top_gainer table tbody h3{
+
+font-size: 14px;
+
+margin: 0;
+
+color: #ffffff57;
+}
+.top_gainer table tbody{
+
+}
+.top_gainer table tbody tr td{
+
+padding: 20px;
+}
+.top_gainer table tbody tr{
+    
+}
+.top_gainer table{
+    
+}
+.td_amt{
+    
+font-size: 20px !important;
+}
+/* top gainer part end here  */
+
+
+
+
+@media only screen and (max-width: 426px){
+    .mobile_view{
+        display: block;
+    }
+    .pc_view{
+        display: none;
+    }
+    .crypto_table table tbody tr td h5 {
+        padding-bottom: 0px;
+        font-size: 16px;
+    }
+    .crypto_table table thead tr th {
+        font-size: 14px;
+    }
+    .crypto_table table tbody tr td {
+        padding-left: 5px;
+    }
+    .crypto_table table tbody tr td p {
+        font-size: 8px;
+    }
+    .top_gainer table tbody img {
+        height: 30px;
+        width: 30px;
+    }
+    .top_gainer table tbody h2 {
+        font-size: 12px;
+    }
+    .top_gainer table tbody h3 {
+        margin-top: 0px;
+        font-size: 10px;
+    }
+}
